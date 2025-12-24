@@ -42,3 +42,40 @@ th {
     background-color: #007bff;
     color: white;
 }
+
+form {
+    /* 간격 조정 활성화 */
+    display: flex;
+    /* 요소가 위에서 아래로 쌓이도록 구성 (옆에 붙지 않음) */
+    flex-direction: column;
+}
+
+label {
+    /* 위 10px, 아래 5px 여백 */
+    margin: 10px 0 5px;
+    color: #444444;
+    /* 적당히 두껍게 */
+    font-weight: 500;
+}
+
+/* 입력 type이 text와 email에 적용 */
+input[type="text"],
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    /* 브라우저의 기본 폰트 크기 */
+    font-size: 1rem;
+}
+
+.custom-button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #4a90ea;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    /* 마우스를 가져다 대면 손가락 모양이 나오도록 구성해줌 */
+    cursor: pointer;
+}
