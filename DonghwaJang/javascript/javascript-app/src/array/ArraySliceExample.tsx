@@ -9,7 +9,7 @@ export const ArraySliceExample = () => {
 
             <pre>{`
 number_array = ${number_array}
-result_array = ${sliced_array}
+sliced_array = ${sliced_array}
             `}</pre>
         </div>
     )
